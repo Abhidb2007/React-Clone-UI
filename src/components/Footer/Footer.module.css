@@ -1,0 +1,45 @@
+.footer {
+  margin-top: 4rem;
+  padding: 2.5rem 2.5rem 3rem;
+  background: transparent;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.copy {
+  color: #475569;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.links a {
+  color: #64748b;
+  font-weight: 500;
+  transition: color 220ms ease, transform 220ms ease;
+}
+
+.links a:hover,
+.links a:focus-visible {
+  color: #0f172a;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 720px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
