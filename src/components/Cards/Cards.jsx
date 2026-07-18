@@ -24,7 +24,7 @@ function Cards() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Cards;
