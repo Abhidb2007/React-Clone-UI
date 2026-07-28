@@ -16,7 +16,7 @@ function Cards() {
             >
               <h3>{card.title}</h3>
               <p>{card.description}</p>
-              <button className={styles.cardButton} type="button">
+              <button className={styles.CardButton} type="button">
                 {card.button}
               </button>
             </motion.article>
