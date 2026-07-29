@@ -19,7 +19,7 @@ function Cards() {
               <button className={styles.CardButton} type="button">
                 {card.Button}
               </button>
-            </motion.article>
+            </motion.Article>
           ))}
         </div>
       </div>
