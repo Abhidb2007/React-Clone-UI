@@ -11,7 +11,7 @@ function Cards() {
             <motion.article
               key={card.title}
               className={styles.card}
-              whileHover={{ y: -8 }}
+              whileHover={{ y: -1 }}
               transition={{ duration: 0.22, ease: 'easeOut' }}
             >
               <h3>{card.title}</h3>
