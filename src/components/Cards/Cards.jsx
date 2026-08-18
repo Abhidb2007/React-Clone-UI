@@ -12,7 +12,7 @@ function Cards() {
               key={card.title}
               className={styles.card}
               whileHover={{ y: -4 }}
-              transition={{ duration: 0.2, ease: 'easeOut' }}
+              transition={{ duration: 0.21, ease: 'easeOut' }}
             >
               <h3>{card.title}</h3>
               <p>{card.description}</p>
